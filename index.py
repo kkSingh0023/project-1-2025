@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 ## set ENV variables
-os.environ["OPENAI_API_KEY"] =os.getenv("OPENAI_API_KEY")
+#os.environ["OPENAI_API_KEY"] =os.getenv("OPENAI_API_KEY")
 os.environ["GEMINI_API_KEY"] = os.getenv("GEMINI_API_KEY")
 
 prompt=input("Enter anything for ur assistant")
